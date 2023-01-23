@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* <p style="margin-left: 2.4%; padding-left: 10px; color: rgb(102, 102, 102); background-color: rgb(238, 238, 238); font-style: italic; font-size: 1.2em;">Leading the web to its full potential</p> */
+.fullcontent{
+    font-family: "'Helvetica Neue'",Helvetica,Arial,Verdana,Geneva,sans-serif;
+    color: #333;
+}
+
+.header{
+    background-color: rgb(238, 238, 238);   
+    /* color: rgb(102, 102, 102); */
+}
+
+
+.header ul{
+    display: flex;
+    list-style: none;
+}
+.header ul li .logo{
+    width: 300px;
+    height: 100px;
+
+}
+.header ul .navbar{
+    padding: 0 25px;
+    display: inline-flex;
+}
+.navbar p{
+    padding-left: 10px;
+    font-size: 24px;
+    color: rgb(102, 102, 102);
+    padding-bottom: 30px;
+
+}
+.header li{
+    /* display: inline-block; */
+    list-style: none;
+
+}
+
+.navbar li a{
+    display: inline-block;
+    font-size: 20px;
+    border-right: 1px solid white;
+    padding: 10px;
+    color: rgb(102, 102, 102);
+    text-decoration: none;
+}
+.navbar li a:hover{
+    background-color: white;
+
+}
+.navbar .search{
+    height: 40px;
+    width: 240px;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+.navbar input{
+
+}
+.footer-content{
+    max-width: 750px;
+    background-color: #FFF;;
+    margin: auto;
+}
+.row{
+    display: flex;
+}
+ul{
+    list-style: none;
+}
+.footer{
+    background-color:#FFF ;
+    padding: 70px 0;
+}
+.col{
+    width: 25%;
+    padding: 10px 20px;
+}
+.col h4{
+    font-size: 20px;
+    color: black;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+    font-weight: 500;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+}
+.col ul li:first-child{
+    margin-top: 10px;
+}
+.col ul li a{
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    font-weight: 200;
+    display: block;
+}
+.col ul li a:hover{
+    text-decoration: underline;
+
+}
+.col ul li .active{
+    color: blue;
+}
+.col .twitter{
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+}
+.col .twitter:hover{
+    color: rgb(28, 28, 28);
+}
+
+.conte{
+
+}
+.conte p{
+    padding-left: 20px;
+    font-size: 15px;
+}
+.conte .as { 
+    padding-left: 80px;
+}
+.conte p a{
+    text-decoration: none;
+    color: cadetblue;
+}
+.conte p a:hover{
+    text-decoration: underline;
+}
+.conte p .web{
+    color: blue;
+}
+.conte p .web:hover{
+    color: aqua;
+    text-decoration: underline;
+}
+.middle-page{
+    background: #fff;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.row1{
+    background: rgb(238, 238, 238);
+    width: 19.95%;
+    flex-grow: 3fr;
+    padding-top: 25px;
+
+}
+.col1{
+    /* border: 2px solid rgb(238, 238, 238); */
+    margin: 10px;
+    font-size: 20px;
+    /* line-height: 7rem; */
+}
+.col1 h3{
+        border: 2px solid rgb(238, 238, 238);
+        padding: 5px;
+        background:rgb(238, 238, 238),linear-gradient(rgb(238, 238, 238),rgb(238, 238, 238),30%); 
+        color:rgb(102, 102, 102);
+       
+    
+}
+.col1 h3 a{
+    text-decoration: none;
+    color: #333;
+    
+}
+.col1 h3 a:hover{
+    color: blue;
+}
+.col1 h3 img{
+    height: 18px;
+    padding: 2px;
+    /* margin: 2px; */
+}
+.col1 ul{
+    list-style: none;
+
+
+}
+.col1 li{
+    border-bottom: 1px solid hsl(0, 0%, 20%,10%);
+    padding: 10px;
+}
+.col1 li a{
+    text-decoration: none;
+    color: #333;
+}
+.col1 .act{
+    color: blue;
+}
+
+.column2{
+    width: 50%;
+}
+.col3{
+    width: 25%;
+    display: inline-block;
+}
+
+
+/* nav{
+    border: 2px solid #333;
+    border-radius: 2rem;
+    margin: 0 auto 1rem;
+    max-width: 600px;
+    font-size: 3rem;
+    line-height: 7rem;
+    background: rgb(102, 102, 102);
+}
+h2{
+    padding: 1rem;
+    background:rgb(102, 102, 102); 
+    border-radius: 2rem 2rem 0 0;
+}
+ul{
+    list-style: none;
+
+}
+li{
+    border-top: 1px solid #333;
+}
+li a{
+    text-decoration: none;
+    color: #333;
+}
+
+
+.block {
+    width:30vw;
+    height: 30vh;
+    background-color: blueviolet;
+    color: #FFF;
+    padding: 1rem;
+}
+.left{
+    float: left;
+    margin-right: 1rem;
+}
+.right{
+    float: right;
+    margin-left: 1rem;
+}
+.clear{
+    clear: both;
+} */

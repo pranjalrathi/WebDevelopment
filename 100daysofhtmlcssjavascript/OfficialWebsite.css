@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 900px;
+    border: 2px solid purple;
+    /* margin-left: auto;
+     */
+     /* margin-top: auto; */
+     /* margin-bottom: auto; */
+     /* margin-right: auto
+     ; */
+     margin: 100px auto;
+}
+.item{
+    border: 3px solid grey;
+    margin: 12px 3px;
+    padding: 12px, 3px;
+    background: rgb(248, 238, 238);
+}
+#fruit{
+    width: 48%;
+    float: left;
+}
+#computer{
+    width: 48%;
+    float: right;
+    /* clear: left; */
+}
+#stationary{
+    width: 100%;
+    /* float: left; */
+    clear: both;
+    /* //clear property is used to solve the problem of float overlaping */
+}
+p,h1{
+    text-align: right;
+}

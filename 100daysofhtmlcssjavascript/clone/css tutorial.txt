@@ -1,0 +1,82 @@
+id is not used more as its not good practice we can use class and element
+column count property 
+clear property
+visibility property
+margin-inline property
+column width property
+column rule 
+column-gap
+
+
+
+
+ Flex :
+ display: flex;
+ justify content : center
+ align item:center
+
+ for flex item :
+ flex-grow:1; // it increase the width
+ Flex-basis:100px;
+ flex-shrink:1; it will shrink the element
+ order is property to set the element position
+ if we give flex-grow for individual element then it will take extra space also and same with flex-shrink
+
+
+short hand property:
+ flex : flex-grow flex-shrink flex-basis;
+
+
+Grid:
+display:grid;
+display-auto-flow: column;
+grid-template-columns : 100px 200px 200px; we use fraction unit  "1fr 2fr 2fr"; if we want to repeat then repeat(2 1fr 2fr);
+//grid can have eoty space
+
+grid-auto-row:minmax(150px,auto)
+gap:1rem;
+
+grid-item
+grid-column-start : 1;
+grid-column-end : 4;//short-hand grid-column:1/4;
+same with row;
+place-content: end center;
+
+
+
+
+//Image:
+
+white-space : nowrap it will not wrap the element and we use it in spam element.
+
+
+//If we want to remove something from website css not from html then we can use position :absolute and left:-1000px 
+
+
+//
+.. for up folder
+
+// for background:
+background:url();
+background-repeat:no-repeat;
+background-size:cover;
+background-position:top right/bottom left/top left//bottom right //center;
+linear-gradient(blue,purple,white)
+linear-gradient(to top or to left or to right or to bottom//blue,purple,white)
+background-image: url , linear gradient();
+If you want image in text then use:-
+-webkit-background-clip: text;
+color:hsla(0%,0%,0%,0) or transparent;
+short hand for background:
+background:repeat  ,position,image;
+
+
+
+for text:
+text-shadow: 2px 2px 5px #000;
+background-color : hsla()//for transparent;
+
+if we want to lighter or darker the background we can do firstly we need parent in that set background image property then on child  block set background-color:hsla();
+
+
+#Media Query:

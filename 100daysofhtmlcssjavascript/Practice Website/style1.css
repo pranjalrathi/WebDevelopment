@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.fullcontent{
+    background-color:#FFEE63; 
+    width: 100vw;
+    height: 130vh;
+    position: relative;
+}
+.header{
+    background: url("./Header.jpeg");
+    width: 60%;
+    height: 25%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15px 15px auto;
+}
+.header h1{
+    font-size: 50px;
+    text-align: end;
+    padding: 30px 60px 5px;
+}
+.header p{
+    text-align: end;
+    padding: 0 331px;
+    font-size: 20px;
+}
+.content{
+    background: url("./background.jpeg");
+    width: 60%;
+    height: 70%;
+    position: absolute;
+    left: 51%;
+    top: 30%;
+    transform: translate(-50%);
+}
+.navigation{
+    margin: 8px;
+}
+.navigation ul{
+    list-style: none;
+    height: 56px;
+    background: url(./background.jpeg);
+    font-size: 23px;
+    border: 2px solid black;
+    
+    
+}
+.navigation ul li{
+    float: left;
+}
+.navigation ul li a{
+    display: block;
+    padding: 12px 24px;
+    color: black;
+    text-decoration: none;
+}
+.two-column{
+    width: 30%;
+    float: left;
+    padding: 5px;
+}
+.two-column .main_menu h3{
+    font-size: 18px;
+    background: url("./Header.jpeg");
+    width: 90%;
+    padding: 8px ;
+    text-decoration: none;
+}
+.two-column .main_menu ul{
+    list-style: none;
+    margin-top: 10px;
+}
+.two-column .main_menu ul li{
+    margin: 5px;
+    
+}
+.two-column .main_menu ul li img{
+    padding-right: 7px;
+}
+.two-column .main_menu ul li a{
+    color:lightgreen
+}
+.two-column .block{
+    padding-top: 10px ;
+}
+.two-column .block h3{
+    font-size: 18px;
+    background: url("./Header.jpeg");
+    width: 90%;
+    padding: 8px;
+    
+    text-decoration: none;
+}
+.two-column .block p{
+    padding-top: 10px;
+}
+/* .two-column1{
+    border-left: 12px solid rgb(183, 182, 149);
+} */
+.two-column1 .gallery h3{
+    font-size: 35px;
+    
+}
+.two-column1 .gallery p{
+    font-size: 15px;
+    padding: 10px 5px;
+    
+}
+.two-column1 .subscription{
+    width: 30%;
+    float: left;
+    padding-top: 10px;
+    
+}
+.two-column1 .subscription h3{
+    font-size:35px ;
+}
+.two-column1 .subscription p{
+    font-size: 15px;
+    padding: 10px 5px;
+    
+}
+.two-column1 .OtherServices{
+    width: 35%;
+    float: right;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+.two-column1 .OtherServices h3{
+    font-size: 35px;
+}
+.two-column1 .OtherServices p{
+    font-size: 15px;
+    padding: 10px 5px;
+    
+}
+.OtherServices{
+    border-left: 2px dotted grey;
+}
+.button{
+    font-size: 18px;
+    background: url("./Header.jpeg");
+    width: 160px;
+    margin-top: 20px;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+}
+footer {
+    background: url("./Header.jpeg");
+    text-align: center;
+    color: black;
+    height: 45px;
+    width: 98%;
+    position: absolute;
+    bottom: 0;
+     margin-left:7px; 
+    transform: translateY(-30%);
+  }
+ .footer h4{
+    padding-top: 50px;
+    
+}
